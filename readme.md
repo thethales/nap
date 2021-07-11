@@ -11,16 +11,36 @@ São códigos customizáveis, representativos para facilitação e aceleração 
 ## Estrutura
 
 **Pontos principais:**
+
 - Atribuição associativa de valores e chaves
 - Tolerante a Caixa Alta/Caixa Baixa
 - Leitura da String é realiza em pares
 
 
+**Terminologia**
+
+|Termo      |Simbolo    |Descrição                                              |
+|-----------|-----------|-------------------------------------------------------|
+|chave      |           |Qualquer valor com peso classificador. e.g. Dia, Peso, Vaso|
+|valor      |           |Qualquer dado representativo. e.g. *Hoje está nublado* |
+|separador  |```:```    |Delimitador entre chave e valor                        |
+
+
+
 **Atribuição**
+
+As chaves são nomeadas a partir da notação 
+
 ```
 CC:=Cacto
 plantio:=Plantio da planta
 ```
+
+**Agrupamento**
+
+O uso de dois separadores consecutivos, i.e.  ```::```, indica agrupamento preferencial
+~~hmmmm~~
+
 **Uso**
 
 
