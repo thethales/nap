@@ -1,10 +1,24 @@
-# Protótipo de Linguagem de Marcação para Registros Diários de Progresso
+# NAP - Notações Aleatória de Progresso
+
+Protótipo de Linguagem de Marcação para Registros Diários de Progresso sem obrigatoriedade de posicionamento cronológico
 
 *Isto é um rascunho*
 
+## Escolha de Nomes
+
+- ~~Linguagem de Marcação para Registros Diários de Progresso~~
+    - ~~Acrônimo: L.M.R.D.P~~
+        - ~~A tad bit long....~~
+- ~~Notações de Progresso de Jardinagem~~
+- ~~Notações Aleatórias de Progresso de Jardinagem~~
+- Notações Aleatórias de Progresso
+    - N.A.P
+
+
+
 ## Marcadores
 
-São códigos customizáveis, representativos para facilitação e aceleração de escrita. A informação (ou valor) é relacionada de maneira associatia com palavras reservadas, denonimadas chaves, entretanto a relação entre chave e valor não é restrita ou obrigatória. Uma chave poderá operar como valor ou vice e versa dependendo do caso.
+São códigos customizáveis, representativos para facilitação e aceleração de escrita. A informação (ou valor) é relacionada de maneira associativa com palavras reservadas, denonimadas chaves, entretanto a relação entre chave e valor não é restrita ou obrigatória. Uma chave poderá operar como valor ou vice e versa dependendo do caso.
 
 ## Estrutura
 
