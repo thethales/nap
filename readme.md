@@ -36,10 +36,26 @@ CC:=Cacto
 plantio:=Plantio da planta
 ```
 
+**Elemento Sequenciador**
+
+O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento sequenciador preferencial, como uma data ou um sistema de numeração. e.g.
+
+```
+20210611:13H::CC:01:plantio:realizado em terra vegetal obitida do pomar
+```
+```
+001::CC:01:plantio:realizado em terra vegetal obitida do pomar
+```
+
 **Agrupamento**
 
-O uso de dois separadores consecutivos, i.e.  ```::```, indica agrupamento preferencial
-~~hmmmm~~
+
+
+*Discussão sobre o Agrupamento*
+
+Enquanto o agrupamento fica a quesito de operação do parser, da-se as opções:
+- Pode ser realizado por sinalização no texto
+- Pode ser realizado por similaridade/contagem de caracteres em busca de padrões similares a escolha do usuário
 
 **Uso**
 
