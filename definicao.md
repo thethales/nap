@@ -1,6 +1,6 @@
-# NAP - Notações Aleatória de Progresso
+# NAP - Notações Aleatórias de Progresso
 
-Protótipo de Linguagem de Marcação para Registros Diários de Progresso sem obrigatoriedade de posicionamento cronológico
+Protótipo de linguagem de marcação pausada para registros diários não consecutivos de progresso sem obrigatoriedade de posicionamento cronológico.
 
 *Isto é um rascunho*
 
