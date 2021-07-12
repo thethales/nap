@@ -2,8 +2,12 @@
 
 Protótipo de linguagem de marcação pausada para registros diários não consecutivos de progresso sem obrigatoriedade de posicionamento cronológico.
 
-
 A ferramenta de conversão da notação para texto comum está disponível em: [nap-parser](https://thethales.github.io/nap-parser/)
+
+
+**Versão:** *0.1_beta*
+
+
 
 **Pontos principais:**
 
