@@ -5,14 +5,13 @@ Protótipo de linguagem de marcação pausada para registros diários não conse
 A ferramenta de conversão da notação para texto comum está disponível em: [nap-parser](https://thethales.github.io/nap-parser/)
 
 
-**Versão:** *0.1_beta*
+**Versão:** *0.2_beta*
 
 
 
 **Pontos principais:**
 
 - Atribuição associativa de valores e chaves
-- ~~Tolerante a Caixa Alta/Caixa Baixa~~
 - Leitura da String é realiza em pares
 - Escrita condensada
 
@@ -21,7 +20,8 @@ A ferramenta de conversão da notação para texto comum está disponível em: [
 Backlog
 - Definição clara de termos para representação da chave e valor; e parser
 - Definição clara de termos para representação do termo parser
-- Caixa Alta/Baixa ...permitir distinção ?
+
+
 
 ## Terminologia
 
@@ -29,8 +29,16 @@ Backlog
 |---------------|-----------|-------------------------------------------------------|
 |chave          |           |Qualquer valor com peso classificador. e.g. Dia, Peso, Vaso|
 |valor          |           |Qualquer dado representativo. e.g. *Hoje está nublado* |
-|delimitador    |```:```    |Separador entre chave e valor                        |
+|delimitador    |```:```    |Separador entre chave e valor                          |
+|atribuição     |```:=```   |Ver [Atribuição](####Operador-de-Atribuição)           |
+|sufixo         |```.```    |Identifica um sufixo para o valor ou chave  e.g. CC.1  |
+|prefixo        |```.```    |Identifica um sufixo para o valor ou chave. e.g. 1<span>.CC  |
+|palavras de atalho|            |Refere-se a chaves abreviadas por meio do uso do operador de [Atribuição](####Operador-de-Atribuição)|
 
+
+### Caracteres Reservados
+
+Os seguintes caracteres são reservados para operação das notações, e portanto não podem ser utilizados: ``` :    :=    . ```
 ## Estrutura
 
 ### Marcadores
@@ -79,6 +87,23 @@ Plantio da Planta -> realizado em terra vegetal obtida do pomar
 ```
 
 
+
+#### Operador de Sufixo
+
+Identifica um sufixo para o valor ou chave.
+É utilizado junto das *palavras de atalho* para aceleração da escrita. Através desse recurso é possível identificar uma série de mesmos elementos com varições deterministiscas através de um sufixo final. 
+
+*Raw*
+```
+CC.01:CC.02:CC.03:Regados hoje às 15h07
+CC:=Cacto
+```
+
+*Parsed*
+```
+Cacto.01 Cacto.02
+Cacto.03 -> Regados hoje às 15h07
+```
 ### Elemento Sequenciador
 
 O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento sequenciador preferencial, como uma data ou um sistema de numeração. e.g.
