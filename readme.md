@@ -3,6 +3,8 @@
 Protótipo de linguagem de marcação pausada para registros diários não consecutivos de progresso sem obrigatoriedade de posicionamento cronológico.
 
 
+A ferramenta de conversão da notação para texto comum está disponível em: [nap-parser](https://thethales.github.io/nap-parser/)
+
 **Pontos principais:**
 
 - Atribuição associativa de valores e chaves
@@ -12,9 +14,10 @@ Protótipo de linguagem de marcação pausada para registros diários não conse
 
 *Isto é um rascunho*
 
-Backlog ->  Definição clara de termos para representação da chave e valor; e parser
-            Definição clara de termos para representação do termmo parser
-            Caixa Alta/Baixa ...permitir distinção ?
+Backlog
+- Definição clara de termos para representação da chave e valor; e parser
+- Definição clara de termos para representação do termo parser
+- Caixa Alta/Baixa ...permitir distinção ?
 
 ## Terminologia
 
@@ -38,7 +41,7 @@ Operadores são elementos ou simbolos reservados que indicam uma regra de notaç
 Ver [Terminologia](##Terminologia), delimitador
 #### Atribuição
 
-As chaves são nomeadas automaticamente mediante sua escrita, entretanto partir de operador reservado pode-se atribuir uma abreviação que funcionará como uma atalho de escrita; i.e., um código.
+As chaves são nomeadas automaticamente mediante sua escrita, entretanto a partir de um operador reservado pode-se atribuir uma abreviação que funcionará como uma atalho de escrita; i.e., um código.
 No momento da transcrição as palavras "atalho" serão trocadas pelos seus valores equivalentes.
 
 ```
