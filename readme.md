@@ -31,18 +31,24 @@ Backlog
 
 ### Marcadores
 
-São códigos customizáveis, representativos para facilitação e aceleração de escrita. A informação (ou valor) é relacionada de maneira associativa com palavras reservadas, denonimadas chaves, entretanto a relação entre chave e valor não é restrita ou obrigatória. Uma chave poderá operar como valor ou vice e versa dependendo do caso.
+São códigos customizáveis, representativos para facilitação e aceleração de escrita. A informação (ou valor) é relacionada de maneira associativa com palavras reservadas, denonimadas chaves, que correspondem sempre ao primeiro mebro à esquerda. 
+Entretanto a relação entre chave e valor não é restrita ou obrigatória. Uma chave poderá operar como valor ou vice e versa dependendo do caso.
 
 ### Operadores
 
-Operadores são elementos ou simbolos reservados que indicam uma regra de notação.
-#### Delimitador
+Operadores são elementos ou simbolos reservados que indicam uma regra de notação. Como os delimitadores, que separam as chaves dos valores por exemplo.
+#### Operador Delimitador
 
 Ver [Terminologia](##Terminologia), delimitador
-#### Atribuição
+#### Operador de Atribuição
 
-As chaves são nomeadas automaticamente mediante sua escrita, entretanto a partir de um operador reservado pode-se atribuir uma abreviação que funcionará como uma atalho de escrita; i.e., um código.
-No momento da transcrição as palavras "atalho" serão trocadas pelos seus valores equivalentes.
+As chaves são nomeadas automaticamente mediante sua escrita, entretanto a partir de um operador reservado pode-se atribuir uma abreviação que funcionará como um atalho de escrita; i.e., um código. 
+```A partir daqui referido como *palavra atalho*.```
+
+No momento da transcrição as palavras atalho serão trocadas pelos seus valores equivalentes.
+Essas atribuições poderão ser realizadas à qualquer momento no registro diário passando à ser aplicada globalmente após enunciação.
+
+O operador atribuidor é representado pelos caracteres ```:=```, conforme:
 
 ```
 CC:=Cacto
