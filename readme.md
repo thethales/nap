@@ -5,14 +5,14 @@ Protótipo de linguagem de marcação pausada para registros diários não conse
 A ferramenta de conversão da notação para texto comum está disponível em: [nap-parser](https://thethales.github.io/nap-parser/)
 
 
-**Versão:** *0.2_beta*
+**Versão:** *0.3_beta*
 
 
 
 **Pontos principais:**
 
 - Atribuição associativa de valores e chaves
-- Leitura da String é realiza em pares
+- A informação é codificada em pares, nomeadamente, 1º e 2º membro. Separadados por um caracters reservado chamado de *Operador*
 - Escrita condensada
 
 *Isto é um rascunho*
@@ -114,6 +114,30 @@ Cacto.03 -> Regados hoje às 15h07
 ```
 001::CC:01:plantio:realizado em terra vegetal obitida do pomar
 ```
+
+#### Operador de Conjuntos (Listas)
+
+A composição de listas é suportada através do uso da vírgula: ```,```
+podendo ser aplicada em qualquer membro.
+
+**Uso**
+
+
+*Raw*
+```
+
+CC.01,CC.02,CC.03,AL.01:pl:realizado em terra vegetal obitida do pomar
+```
+
+*Parsed*
+```
+
+```
+
+
+
+
+
 
 ~~### Agrupamento~~
 
