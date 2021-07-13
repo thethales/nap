@@ -76,7 +76,7 @@ pl:=Plantio da planta
 
 *Raw*
 ```
-CC:01:pl:realizado em terra vegetal obitida do pomar
+CC01:pl:realizado em terra vegetal obitida do pomar
 ```
 
 *Parsed*
@@ -104,16 +104,7 @@ CC:=Cacto
 Cacto.01 Cacto.02
 Cacto.03 -> Regados hoje às 15h07
 ```
-~~### Elemento Sequenciador~~
 
-~~O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento sequenciador preferencial, como uma data ou um sistema de numeração. e.g.~~
-
-```
-20210611:13H::CC:01:plantio:realizado em terra vegetal obitida do pomar
-```
-```
-001::CC:01:plantio:realizado em terra vegetal obitida do pomar
-```
 
 #### Operador de Conjuntos (Listas)
 
@@ -134,6 +125,19 @@ CC.01,CC.02,CC.03,AL.01:pl:realizado em terra vegetal obitida do pomar
 
 ```
 
+
+
+
+
+
+
+
+~~### Elemento Sequenciador~~
+
+~~O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento sequenciador preferencial, como uma data ou um sistema de numeração. e.g.~~
+
+~~20210611:13H::CC.01:plantio:realizado em terra vegetal obitida do pomar
+001::CC.01:plantio:realizado em terra vegetal obitida do pomar~~
 
 
 
