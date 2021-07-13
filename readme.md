@@ -104,9 +104,9 @@ CC:=Cacto
 Cacto.01 Cacto.02
 Cacto.03 -> Regados hoje às 15h07
 ```
-### Elemento Sequenciador
+~~### Elemento Sequenciador~~
 
-O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento sequenciador preferencial, como uma data ou um sistema de numeração. e.g.
+~~O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento sequenciador preferencial, como uma data ou um sistema de numeração. e.g.~~
 
 ```
 20210611:13H::CC:01:plantio:realizado em terra vegetal obitida do pomar
@@ -115,15 +115,15 @@ O uso de dois separadores consecutivos, i.e.  ```::```, indica um elemento seque
 001::CC:01:plantio:realizado em terra vegetal obitida do pomar
 ```
 
-### Agrupamento
+~~### Agrupamento~~
 
 
 
-*Discussão sobre o Agrupamento*
+~~*Discussão sobre o Agrupamento*~~
 
-Enquanto o agrupamento fica a quesito de operação do parser, da-se as opções:
-- Pode ser realizado por sinalização no texto
-- Pode ser realizado por similaridade/contagem de caracteres em busca de padrões similares a escolha do usuário
+~~Enquanto o agrupamento fica a quesito de operação do parser, da-se as opções:~~
+~~-Pode ser realizado por sinalização no texto~~
+~~-Pode ser realizado por similaridade/contagem de caracteres em busca de padrões ~similares a escolha do usuário~~
 
 
 
